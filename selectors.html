@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>HTML Selectors</title>
+        <link rel="stylesheet" href="selectors.css">
+    </head>
+    <body>
+
+            
+
+            <!--simple selector-->
+        <h1>heading level 1</h1>
+        <p>This is paragraph</p>
+
+
+        <!--class selector-->
+        <ul>
+            <li class="first done">Create an HTML document</li>
+            <li class="second done">Create a CSS style sheet</li>
+            <li class="third">Link them all together</li>
+        </ul>
+
+        <div id="row">
+            <span>The ID selector consists of a hash/pound symbol (#), followed by the ID name of a given element. 
+                Any element can have a unique ID name set with the id attribute.
+                It is up to you to choose an ID name. 
+                It's the most efficient way to select a single element.
+            </span>
+        </div>
+
+        <p id="polite"> — "Good morning."</p>
+        <p id="rude"> — "Go away!"</p>
+
+
+        <!--attribute selector-->
+        <!--
+            [attr] : This selector will select all elements with the attribute attr, whatever its value.
+            [attr=val] : This selector will select all elements with the attribute attr, but only if its value is val.
+            [attr~=val]: This selector will select all elements with the attribute attr, but only if  val is one of a space-separated list of words contained in attr's value. 
+        -->
+
+        Ingredients for my recipe: <i lang="fr-FR">Poulet basquaise</i>
+    <ul>
+        <li data-quantity="1kg" data-vegetable>Tomatoes</li>
+        <li data-quantity="3" data-vegetable>Onions</li>
+        <li data-quantity="3" data-vegetable>Garlic</li>
+        <li data-quantity="700g" data-vegetable="not spicy like chili">Red pepper</li>
+        <li data-quantity="2kg" data-meat>Chicken</li>
+        <li data-quantity="optional 150g" data-meat>Bacon bits</li>
+        <li data-quantity="optional 10ml" data-vegetable="liquid">Olive oil</li>
+        <li data-quantity="25cl" data-vegetable="liquid">White wine</li>
+    </ul>
+
+    <!--pseudo class-->
+    <a href="https://developer.mozilla.org/" target="_blank">Mozilla Developer Network</a>
+
+
+    <!--overflow-->
+   <p id="p1" class="autoscroll">
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+   Mauris tempus turpis id ante mollis dignissim. Nam sed
+   dolor non tortor lacinia lobortis id dapibus nunc. Praesent
+   iaculis tincidunt augue. Integer efficitur sem eget risus
+   cursus, ornare venenatis augue hendrerit. Praesent non elit
+   metus. Morbi vel sodales ligula.
+</p>
+
+<p id="p2" class="clipped">
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+   Mauris tempus turpis id ante mollis dignissim. Nam sed
+   dolor non tortor lacinia lobortis id dapibus nunc. Praesent
+   iaculis tincidunt augue. Integer efficitur sem eget risus
+   cursus, ornare venenatis augue hendrerit. Praesent non elit
+   metus. Morbi vel sodales ligula.
+</p>
+
+<p id="p3" class="default">
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+   Mauris tempus turpis id ante mollis dignissim. Nam sed
+   dolor non tortor lacinia lobortis id dapibus nunc. Praesent
+   iaculis tincidunt augue. Integer efficitur sem eget risus
+   cursus, ornare venenatis augue hendrerit. Praesent non elit
+   metus. Morbi vel sodales ligula.
+</p>
+
+
+
+    <p id="p4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <span class="inline">Mauris tempus turpis id ante mollis dignissim.</span>
+        Nam sed dolor non tortor lacinia lobortis id dapibus nunc.
+     </p>
+     
+     <p id="p5">
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+       <span class="block">Mauris tempus turpis id ante mollis dignissim.</span>
+       Nam sed dolor non tortor lacinia lobortis id dapibus nunc.
+     </p>
+     
+     <p id="p6">
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+       <span class="inline-block">Mauris tempus turpis id ante mollis dignissim.</span>
+       Nam sed dolor non tortor lacinia lobortis id dapibus nunc.
+     </p>
+    </body>
+</html>

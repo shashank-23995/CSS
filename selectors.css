@@ -1,0 +1,95 @@
+
+h1, p {
+color: darkblue;
+text-align: center;
+}
+
+
+
+/*class selector*/
+.first {
+  font-weight: bold;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+/*id selector*/
+#row {
+    display: block;
+    text-decoration-skip-ink: inherit;
+    color:orangered;
+    padding: 100px 150px 150px 50px;
+}
+
+#polite{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-display: fallback;
+    text-decoration: brown;
+}
+
+
+/*attribute selector*/
+[data-vegetable="liquid"] {
+    background-color: goldenrod;
+  }
+
+[data-vegetable~="spicy"] {
+   color: red;
+}
+
+/*pseudo class*/
+
+a {
+    color: red;
+}
+
+a:hover{
+    color: beige;
+}
+
+a:focus{
+    color: blue;
+}
+
+a:visited{
+    color: yellow;
+}
+
+#p1,#p2,#p3{
+    width  : 400px;
+    height : 2.5em;
+    padding: 1em 1em 1em 1em;
+    border : 1px solid black;
+  }
+  
+  .autoscroll { overflow: auto;    }
+  .clipped    { overflow: hidden;  }
+  .default    { overflow: visible; }
+  
+
+
+  /*boxes*/
+
+  #p4,#p5,#p6 {
+    padding : 1em;
+    border  : 1px solid black;
+  }
+  
+  span {
+    border  : 1px solid green;
+    /* That makes the box visible, regardless of its type */
+    background-color: yellow;
+  }
+  
+  .inline       { display: inline;       }
+  .block        { display: block;        }
+  .inline-block { display: inline-block; }
+
+  ul{
+      list-style-type: lower-greek;
+      list-style-position: inside;
+  }
+
+  

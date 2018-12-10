@@ -1,0 +1,36 @@
+.autoscroll{
+    width: 400px;
+    height: 200px;
+    border: 10px dotted;
+    background: lightblue;
+    background-clip: border-box;
+}
+
+.clipped{
+    width: 100%;
+    height: 200px;
+    border: 10px dotted;
+    background: lightblue;
+    background-clip: padding-box;
+}
+.default{
+    width: 400px;
+    height: 200px;
+    border: 10px solid rebeccapurple;
+    background : lightblue;
+    background-clip:content-box;
+}
+
+
+#p7{
+    background: crimson;
+    background-attachment: fixed;
+}
+
+#grad1{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    background-image: linear-gradient(to bottom right, red,yellow)
+}
+
